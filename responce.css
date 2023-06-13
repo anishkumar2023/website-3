@@ -1,0 +1,13 @@
+@media(min-width:0) and (max-width:782px){
+	.row .one{
+	margin-left:0!important;
+	}
+}
+@media(min-width:768px) and (max-width:992px){
+	.row.one{
+		margin-left:0;
+	}
+	.hii{
+		right:0!important;
+	}
+}

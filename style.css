@@ -1,0 +1,266 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+} 
+				/* header */
+.header{
+	position:sticky;
+	top:0;
+	padding:30px;
+	z-index:1;
+	background-color:white;
+}
+header ul li a:hover{
+	color:blue!important;
+}
+header .dropdown-menu{	
+	border-bottom:3px solid blue!important;
+}
+#box{
+	box-shadow:0 0 10px #ccdc;
+	padding:5px 15px;
+	line-height: 40px;
+	margin-left:46px;
+}	
+.col-4 a{
+	text-decoration:none;
+}			
+#margin-left{
+	margin-left:20px;	
+	color:white;
+	border:1px solid blue;
+	background-color:blue;
+	padding:5px 30px;
+	line-height: 40px;
+	font-size:20px;
+	border-radius:2px;
+}
+.nav-link{
+    font-size:20px!important;
+	padding:none!important
+}
+.fs{
+     font-size: 3.5rem!important;
+}
+#margin-left:hover{
+       background-color:#0f0f44cf;
+}
+.fs{
+	color:#0f0f44cf;
+}
+                    /* section-1 */
+.section-1,.section-4,.section-7{
+	background-color:#6c757d1c;
+	/* padding-top:70px; */
+}					
+.fs:after{
+	content:"";
+	background-color:blue;
+	height:20px;
+	width:2px;
+}	
+.hover{
+	position:relative;
+}	
+.absolute{
+	position:absolute;
+}			
+.hover:hover{
+	transform:scale(1.1);
+}
+.card{
+	overflow:hidden;
+}
+.card img:hover{
+	transition:all 0.8s ease;
+}
+                    /* section-2 */
+.img-sec{
+	position:relative;
+	margin-left:60px;
+}	
+.img-1{
+	position:absolute;
+	top:75px;
+	left:-95px;
+	z-index:-1;
+	
+}
+.img-2{
+	position:absolute;
+    top:200px;	
+	right:40px;
+	/* width:100%; */
+}	
+.img-two{
+	position:relative;
+}
+.img-one{
+	position:absolute;
+	top:0;
+}
+.img-one-1{
+	position:absolute;
+	top:10px;
+	right:30px;
+}
+
+.pad-left{
+	margin-top:12px;
+	padding-top:6px;
+	padding:0 20px;
+}
+.img-two img:hover{
+	transform:scale(1.1);
+	transition:all 0.8s ease;
+}
+.img-two{
+	overflow:hidden;
+}
+               /* section-5 */
+.over-orange .hover-orange:hover{
+    background-color:orange;
+}
+#p-5{
+	padding:100px!important;
+}
+                 /* section-6 */
+.section-6{
+	margin-top:80px!important;
+}				 
+.pad-1{
+    padding-top:100px;
+}
+.col-6 .fs-1{
+	    font-size:3.0rem!important;
+		color:#231F40;
+}
+.accordion-button::after {
+	background-image: url(loro);
+}
+
+
+
+             /* section-7 */
+.col-6 .oange{
+	color:orange!important;
+}			 
+.col-6 .fs-4,.ga{
+	color:gray!important;
+	margin-top:40px!important;
+}
+                   /* section-8 */
+.section-8 .fs-3{
+	/* font-size: 1.4rem!important; */
+	/* color:blue!important; */
+	padding:26!importa;
+}				  
+.footer{
+	background-color:#212529!important;
+} 
+.hover-blue a:hover{
+	color:blue!important;
+}
+.section-8 .padd-left{
+	padding-right:300px!important;
+}
+.position-one-relative{
+	position:relative;
+}
+.position-one-absolute{
+	position:absolute;
+	/* top:0; */
+	
+    
+}
+.bg-color{
+	display:flex;
+}
+.bg-color i{
+	background: #6F6B80!important;
+    border:1px solid #6F6B80!important;
+	color:white!important;
+	height:30px;
+	width:30px;
+	background-color:#6F6B80;
+	margin:auto;
+	flex:no-wrap;
+	justify-content:center;
+	align-items:center;
+}
+.bg-color i:hover{
+	background: blue!important;	
+}
+.accordion-button::after {
+	background:none!important;
+	content:"\f067"!important;
+	font:normal normal normal 14px/1 FontAwesome;
+}
+.accordion-button:not(.collapsed)::after {
+	background:none!important;
+	content:"\f068"!important;
+	font:normal normal normal 14px/1 FontAwesome;
+}
+.pt-4 .rounded-circle{
+	background-color:pink!important;
+}
+.blue a:hover{
+	color:blue!important;
+}
+.fa-angle-double-right:hover{
+	color:blue!important;
+}
+.dropdown-menu{
+	display:contants!important;
+	align-items:end!important;
+	
+}
+.fa-angle-right:before{
+	font-size:25px!important;
+}	
+	.dropdown-toggle::after{
+		content:"\f107"!important;
+		font:normal normal normal 14px/1 FontAwesome;
+		border:none!important;
+		font-size:22px!important;
+		vertical-align:-2px!important
+	}
+	.section-7{
+		position:relative;
+	}
+	.carousel-control-prev-1{
+		position:absolute;
+	    right:38px;
+	   top:154px;
+	}
+	.carousel-control-next-1{
+	   position:absolute;
+	   right:98px;
+	   top:154px;
+	}
+	input:focus{
+		outline:none;
+	}
+	/* .height-width{ */
+		/* height:50px; */
+		/* width:50px; */
+	/* } */
+	.hello{
+		height:55px;
+		width:55px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		background-color:pink;
+		border-radius:100%;
+	}
+	.img-two .d-flex .psb-2{
+		height:30px;
+		width:30px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		background-color:gray;
+		border-radius:100%;
+	}
