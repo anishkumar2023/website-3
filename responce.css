@@ -2,6 +2,27 @@
 	.row .one{
 	margin-left:0!important;
 	}
+	.section-1-5 .pad-2{
+		padding:0px!important;
+	}
+	.row .onee{
+		width:100%;
+	}
+	.section-8 .padd-left{
+		padding-right:0px!important;
+	}
+	#p-5{
+		padding:0px!important;
+		padding-bottom:50px!important;
+	}
+	.section-7 .marg{
+		margin-left:0px!important;
+	}
+	.carousel-control-prev-1,.carousel-control-next-1{
+		top:215px!important;
+		bottom:10px!important;
+		background:none!important;
+	}
 }
 @media(min-width:768px) and (max-width:992px){
 	.row.one{
@@ -10,4 +31,5 @@
 	.hii{
 		right:0!important;
 	}
+	
 }
