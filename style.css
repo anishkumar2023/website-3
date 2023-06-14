@@ -171,8 +171,9 @@ header .dropdown-menu{
 .position-one-absolute{
 	position:absolute;
 	/* top:0; */
-	
-    
+}
+.sec-8 button{
+	flex:0 0 auto;	
 }
 .bg-color{
 	display:flex;
