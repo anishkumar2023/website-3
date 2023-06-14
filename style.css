@@ -233,12 +233,12 @@ header .dropdown-menu{
 	.carousel-control-prev-1{
 		position:absolute;
 	    right:38px;
-	   top:154px;
+	   top:200px;
 	}
 	.carousel-control-next-1{
 	   position:absolute;
 	   right:98px;
-	   top:154px;
+	   top:20px;
 	}
 	input:focus{
 		outline:none;
